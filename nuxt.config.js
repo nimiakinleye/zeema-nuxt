@@ -11,7 +11,6 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' },
       {
         hid: 'description', name: 'description', content: `We're a member-owned and not-for-profit credit union exclusively serving America’s immigrant community and their families. Our members are owners, not just customers, and each one of them has a vote.
       Because we’re not-for-profit, any surplus funds are returned to our members as dividends, reduced loan interest and improvements to our products and services. That means we have great rates, lower fees and exclusive discounts.` },
