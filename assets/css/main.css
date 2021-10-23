@@ -250,6 +250,10 @@ header .button:hover {
   padding: 0 10px;
 }
 
+#info .mission-vision p {
+  margin: 10px auto;
+}
+
 #rates {
   display: -webkit-box;
   display: -ms-flexbox;
