@@ -4,17 +4,17 @@
       <img src="~/assets/logo_text.svg" alt="" />
       <div class="sub_footer">
         <h3>Address</h3>
-        <nuxt-link to="#">Dallas, Texas</nuxt-link>
+        <a href="#">Dallas, Texas</a>
       </div>
       <div class="sub_footer">
         <h3>Contact</h3>
-        <nuxt-link to="#">(+123) 456 78</nuxt-link>
-        <nuxt-link to="#">(+123) 910 123</nuxt-link>
+        <a href="#">(+123) 456 78</a>
+        <a href="#">(+123) 910 123</a>
       </div>
       <div class="sub_footer">
         <h3>Quick links</h3>
-        <nuxt-link to="#">Privacy policy</nuxt-link>
-        <nuxt-link to="#">FAQs</nuxt-link>
+        <a href="#">Privacy policy</a>
+        <a href="#">FAQs</a>
       </div>
     </div>
     <div>Copyright 2021 - Zeema</div>

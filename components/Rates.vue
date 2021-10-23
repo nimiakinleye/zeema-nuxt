@@ -31,7 +31,7 @@
         </div>
       </div>
       <div data-aos-delay="300" data-aos="fade-up" class="more">
-        <nuxt-link to="#">
+        <a href="#">
           <span>View more rates</span>
           <span>
             <svg width="10" height="5" viewBox="0 0 16 8" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -40,7 +40,7 @@
                 fill="#00803D" />
             </svg>
           </span>
-        </nuxt-link>
+        </a>
       </div>
     </div>
   </section>

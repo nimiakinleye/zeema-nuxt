@@ -56,6 +56,24 @@ button {
   border-radius: 100px;
 }
 
+header #mobile_header .logo_nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 4px;
+}
+
+header #mobile_header .logo_nav svg {
+  width: 32px;
+  fill: #00803d;
+}
+
 header #lg_header {
   display: none;
 }

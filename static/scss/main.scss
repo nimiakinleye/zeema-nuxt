@@ -61,6 +61,21 @@ button {
 }
 
 header {
+  #mobile_header {
+
+    .logo_nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 4px;
+
+      svg {
+        width: 32px;
+        fill: $primary_color;
+      }
+    }
+  }
+
   #lg_header {
     display: none;
 

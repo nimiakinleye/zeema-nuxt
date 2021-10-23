@@ -14,7 +14,7 @@
           and improvements to our products and services. That means we have great rates, lower fees and exclusive
           discounts.
         </p>
-        <nuxt-link to="#">
+        <a href="#">
           <span>Get Started</span>
           <span>
             <svg width="10" height="5" viewBox="0 0 16 8" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -23,7 +23,7 @@
                 fill="#00803D" />
             </svg>
           </span>
-        </nuxt-link>
+        </a>
       </div>
       <div data-aos="fade-up" class="about_img">
         <img src="~/assets/about.svg" alt="">
