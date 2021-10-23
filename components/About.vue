@@ -1,7 +1,7 @@
 <template>
   <section id="info" class="container">
     <div id="about">
-      <div class="about_text">
+      <div data-aos="fade-up" class="about_text">
         <div class="heading">
           <div class="bar"></div>
           <h3>About Zeema FCU</h3>
@@ -25,7 +25,7 @@
           </span>
         </nuxt-link>
       </div>
-      <div class="about_img">
+      <div data-aos="fade-up" class="about_img">
         <img src="~/assets/about.svg" alt="">
       </div>
     </div>
@@ -34,7 +34,7 @@
         <div class="bar"></div>
         <h3>Our Mission</h3>
       </div>
-      <p>
+      <p data-aos="fade-right">
         As a member-owned and not-for-profit credit union, Zeema’s mission is to start with the member and work
         backwards. We always put our members first. Zeema is honored to serve those who are the wheels behind America’s
         progress, with a field of membership comprising of all naturalized US citizens, second-generation immigrants,
@@ -46,7 +46,7 @@
         <div class="bar"></div>
         <h3>Our Vision</h3>
       </div>
-      <p>
+      <p data-aos="fade-left">
         To be the premier credit union for America’s new immigrant community.
         We are on a journey to build the most agile and cost-effective financial institution for American immigrants of
         all races, ethnicity and walks of life. We strive to reclaim the American Dream for every legal immigrant

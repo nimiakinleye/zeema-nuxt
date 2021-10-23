@@ -1,7 +1,7 @@
 <template>
   <section class="container">
     <div id="rates">
-      <div class="rates">
+      <div data-aos="flip-up" class="rates">
         <div class="rate">
           <div class="img">
             <img src="~/assets/rates/savings.png" alt="" />
@@ -30,7 +30,7 @@
           </div>
         </div>
       </div>
-      <div class="more">
+      <div data-aos-delay="300" data-aos="fade-up" class="more">
         <a href="#">
           View more rates
           <span>

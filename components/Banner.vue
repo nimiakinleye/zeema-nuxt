@@ -1,7 +1,7 @@
 <template>
   <section class="container">
     <div id="banner">
-      <div id="banner_text">
+      <div data-aos="flip-left" id="banner_text">
         <h1 class="title">Best <br />Credit<br /> Solution</h1>
         <p class="caption">US based credit union for American immigrants.</p>
         <button>
@@ -27,15 +27,16 @@
         <p class="tagline">Member-owned. Banking on the American Dream</p>
       </div>
       <div>
-        <div id="banner_img"><img src="~/assets/Zema-banner.png" alt=""></div>
+        <div id="banner_img"><img data-aos="flip-right" src="~/assets/Zema-banner.png" alt=""></div>
       </div>
     </div>
   </section>
 </template>
 
 <script>
+import aosMixin from '~/mixins/aos'
 export default {
-
+  mixins: [aosMixin]
 }
 </script>
 
