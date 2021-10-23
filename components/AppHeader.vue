@@ -7,15 +7,15 @@
         </a>
         <nav class="navlinks">
           <a href="/" class="navlink">Home</a>
-          <a href="#" class="navlink">Contact</a>
-          <a href="#" class="navlink">Services</a>
-          <a href="#" class="navlink">Resources</a>
-          <a href="#" class="navlink">Membership</a>
+          <a href="#subscribe" class="navlink">Contact</a>
+          <a href="#benefits" class="navlink">Services</a>
+          <a href="#rates" class="navlink">Resources</a>
+          <a href="#about" class="navlink">Membership</a>
         </nav>
       </div>
       <div>
         <a href="#" class="navlink login">Login</a>
-        <a href="#" class="navlink button">Apply now</a>
+        <a href="#subscribe" class="navlink button">Apply now</a>
       </div>
     </div>
 
@@ -26,8 +26,12 @@
         /></a>
         <div v-on:click="toggleNav" v-html="navSvg"></div>
       </div>
-      <nav>
-
+      <nav v-if="show_nav">
+        <!-- <a href="#">Home</a>
+        <a href="#">Home</a>
+        <a href="#">Home</a>
+        <a href="#">Home</a>
+        <a href="#">Home</a> -->
       </nav>
     </div>
   </header>
@@ -101,4 +105,12 @@ export default {
 </script>
 
 <style>
+@keyframes slide {
+  0% {
+    transform: translateY(-1000%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
 </style>

@@ -74,6 +74,16 @@ header #mobile_header .logo_nav svg {
   fill: #00803d;
 }
 
+header #mobile_header nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
 header #lg_header {
   display: none;
 }
@@ -714,6 +724,9 @@ header .button:hover {
     width: 80%;
     margin: 0 auto;
     max-width: 1200px;
+  }
+  header #mobile_header {
+    display: none;
   }
   header #lg_header {
     display: -webkit-box;

@@ -74,6 +74,11 @@ header {
         fill: $primary_color;
       }
     }
+
+    nav {
+      display: flex;
+      flex-direction: column;
+    }
   }
 
   #lg_header {
@@ -636,6 +641,10 @@ header {
   }
 
   header {
+    #mobile_header {
+      display: none;
+    }
+    
     #lg_header {
       display: flex;
       justify-content: space-between;
