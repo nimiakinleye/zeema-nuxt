@@ -168,7 +168,7 @@ header .button:hover {
           align-items: center;
   background-color: #fff;
   color: #00803d;
-  padding: 8px;
+  padding: 10px 20px;
   cursor: pointer;
 }
 
@@ -312,6 +312,10 @@ header .button:hover {
   grid-column: 10/13;
   -ms-grid-column-align: center;
       justify-self: center;
+}
+
+#rates .more a svg {
+  vertical-align: middle;
 }
 
 #benefits {

@@ -150,7 +150,7 @@ header {
     align-items: center;
     background-color: #fff;
     color: $primary_color;
-    padding: 8px;
+    padding: 10px 20px;
     cursor: pointer;
 
     p {
@@ -269,6 +269,12 @@ header {
   .more {
     grid-column: 10/13;
     justify-self: center;
+
+    a {
+      svg {
+        vertical-align: middle;
+      }
+    }
   }
 }
 

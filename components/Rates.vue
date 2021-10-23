@@ -31,23 +31,16 @@
         </div>
       </div>
       <div data-aos-delay="300" data-aos="fade-up" class="more">
-        <a href="#">
-          View more rates
+        <nuxt-link to="#">
+          <span>View more rates</span>
           <span>
-            <svg
-              width="10"
-              height="5"
-              viewBox="0 0 16 8"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
+            <svg width="10" height="5" viewBox="0 0 16 8" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path
                 d="M7.82483 1.06759L11.6667 3.35043L9.33102e-08 3.35043L6.54855e-08 4.73691L11.6667 4.73691L7.82483 7.01976L9.4745 8L14.483 5.02391C14.9204 4.76391 15.1662 4.41132 15.1662 4.04367C15.1662 3.67603 14.9204 3.32343 14.483 3.06343L9.4745 0.0873414L7.82483 1.06759Z"
-                fill="#00803D"
-              />
+                fill="#00803D" />
             </svg>
           </span>
-        </a>
+        </nuxt-link>
       </div>
     </div>
   </section>
