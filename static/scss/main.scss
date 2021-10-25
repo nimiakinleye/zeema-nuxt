@@ -58,6 +58,7 @@ button {
   padding: 6px 12px;
   border: 2px solid;
   border-radius: 100px;
+  transition: 500ms;
 }
 
 header {
@@ -163,6 +164,7 @@ header {
 
   #banner_img img {
     width: 20rem;
+    margin-bottom: -0.4rem;
   }
 
   button {

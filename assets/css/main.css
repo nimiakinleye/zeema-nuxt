@@ -54,6 +54,8 @@ button {
   padding: 6px 12px;
   border: 2px solid;
   border-radius: 100px;
+  -webkit-transition: 500ms;
+  transition: 500ms;
 }
 
 header #mobile_header .logo_nav {
@@ -185,6 +187,7 @@ header .button:hover {
 
 #banner #banner_img img {
   width: 20rem;
+  margin-bottom: -0.4rem;
 }
 
 #banner button {

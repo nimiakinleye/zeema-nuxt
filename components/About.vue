@@ -14,7 +14,7 @@
           and improvements to our products and services. That means we have great rates, lower fees and exclusive
           discounts.
         </p>
-        <a href="#">
+        <a href="#subscribe">
           <span>Get Started</span>
           <span>
             <svg width="10" height="5" viewBox="0 0 16 8" fill="none" xmlns="http://www.w3.org/2000/svg">

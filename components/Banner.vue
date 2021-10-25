@@ -35,10 +35,8 @@
         </button>
         <p class="tagline">Member-owned. Banking on the American Dream</p>
       </div>
-      <div>
-        <div id="banner_img">
-          <img data-aos="flip-right" src="~/assets/Zema-banner.png" alt="" />
-        </div>
+      <div id="banner_img">
+        <img data-aos="flip-right" src="~/assets/Zema-banner.png" alt="" />
       </div>
     </div>
   </section>
