@@ -30,7 +30,7 @@
           </div>
         </div>
       </div>
-      <div data-aos-delay="300" data-aos="fade-up" class="more">
+      <div class="more">
         <a href="#">
           <span>View more rates</span>
           <span>

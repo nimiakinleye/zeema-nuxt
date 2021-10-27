@@ -36,6 +36,46 @@
         <p class="tagline">Member-owned. Banking on the American Dream</p>
       </div>
       <div id="banner_img">
+        <div data-aos="fade-left" id="svg_1">
+          <div class="benefits_svg">
+            <div class="duplicate"></div>
+            <div class="duplicate_2"></div>
+            <img src="~/assets/benefits/low_price.svg" alt="" />
+            <span>Lower fees</span>
+          </div>
+        </div>
+        <div data-aos-delay="300" data-aos="fade-right" id="svg_2">
+          <div class="benefits_svg">
+            <div class="duplicate"></div>
+            <div class="duplicate_2"></div>
+            <img src="~/assets/benefits/credit_asst.svg" alt="" />
+            <span>Credit Assistance</span>
+          </div>
+        </div>
+        <div data-aos-delay="600" data-aos="fade-left" id="svg_3">
+          <div class="benefits_svg">
+            <div class="duplicate"></div>
+            <div class="duplicate_2"></div>
+            <img src="~/assets/benefits/savings.svg" alt="" />
+            <span>Increased savings</span>
+          </div>
+        </div>
+        <div data-aos-delay="900" data-aos="fade-right" id="svg_4">
+          <div class="benefits_svg">
+            <div class="duplicate"></div>
+            <div class="duplicate_2"></div>
+            <img src="~/assets/benefits/rate.svg" alt="" />
+            <span>Lower loan rates</span>
+          </div>
+        </div>
+        <div data-aos-delay="1200" data-aos="fade-left" id="svg_5">
+          <div class="benefits_svg">
+            <div class="duplicate"></div>
+            <div class="duplicate_2"></div>
+            <img src="~/assets/benefits/voting.svg" alt="" />
+            <span>Voting rights</span>
+          </div>
+        </div>
         <img data-aos="flip-right" src="~/assets/Zema-banner.png" alt="" />
       </div>
     </div>

@@ -1,5 +1,5 @@
 <template>
-  <footer data-aos-delay="300" data-aos="fade-up" id="footer" class="container">
+  <footer id="footer" class="container">
     <div class="footer">
       <img src="~/assets/logo_text.svg" alt="" />
       <div class="sub_footer">
